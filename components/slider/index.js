@@ -174,5 +174,5 @@ const styles = StyleSheet.create({
     borderWidth: 0.5,
     position: 'absolute',
   },
-  valueStyle: {position: 'absolute', bottom: 10, alignSelf: 'center'},
+  valueStyle: {position: 'absolute', bottom: 20, alignSelf: 'center'},
 });

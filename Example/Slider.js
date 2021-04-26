@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import SliderField from 'react-native-simple-slider';
+import {Slider} from 'react-native-simple-slider';
 
-function Slider() {
+function SliderField() {
   const [value, setValue] = React.useState();
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <SliderField
+      <Slider
         maximumValue={10000000}
         tintColor="green"
         backgroundColor="#99E1D9"
@@ -23,4 +23,4 @@ function Slider() {
   );
 }
 
-export default Slider;
+export default SliderField;
