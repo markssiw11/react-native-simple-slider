@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import SliderField from 'react-native-simple-slider';
 
 function Slider() {
   const [value, setValue] = React.useState();
